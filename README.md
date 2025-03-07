@@ -44,9 +44,12 @@ Automate the pricing process with a scalable solution designed for production, l
 - `GET /`: Check if the Quotation service is running.
 - `POST /generate_quote`: Generate a quotation.
 
-## Environment Variables
+## Example of curl for Lanchaing chat response
 
-Make sure to create a `.env` file in the root directory with the necessary environment variables for the AI service.
+curl -X 'POST' \
+  'http://localhost:8001/chat/' \
+  -H 'Content-Type: application/json' \
+  -d '{"message": "Que es una plan premium en odoo?"}'
 
 ## Dependencies
 
