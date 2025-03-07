@@ -19,7 +19,7 @@ Automate the pricing process with a scalable solution designed for production, l
 2. Create .env file to storage enviroment variable such as:
 
     ```sh
-    OPENAI_KEY=EXAMPLOOFAPIKEY
+    OPENAI_API_KEY=EXAMPLEOFAPIKEY
     ```
 
 3. Build and start the services using Docker Compose:
