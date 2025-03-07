@@ -1,7 +1,6 @@
 # aipricing_backend
 Automate the pricing process with a scalable solution designed for production, leveraging microservices, containerized with FastAPI, and integrated with generative AI services.
 
-
 ## Prerequisites
 
 - Docker
@@ -17,14 +16,19 @@ Automate the pricing process with a scalable solution designed for production, l
     git clone <repository-url>
     cd aipricing_backend
     ```
+2. Create .env file to storage enviroment variable such as:
 
-2. Build and start the services using Docker Compose:
+    ```sh
+    OPENAI_KEY=EXAMPLOOFAPIKEY
+    ```
+
+3. Build and start the services using Docker Compose:
 
     ```sh
     docker-compose up --build
     ```
 
-3. The services will be available at the following URLs:
+4. The services will be available at the following URLs:
     - AI Service: `http://localhost:8001`
     - Quotation Service: `http://localhost:8000`
 
