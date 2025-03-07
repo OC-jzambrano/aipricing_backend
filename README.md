@@ -46,10 +46,7 @@ Automate the pricing process with a scalable solution designed for production, l
 
 ## Example of curl for Lanchaing chat response
 
-curl -X 'POST' \
-  'http://localhost:8001/chat/' \
-  -H 'Content-Type: application/json' \
-  -d '{"message": "Que es una plan premium en odoo?"}'
+curl -X POST http://localhost:8001/chat/ -H "Content-Type: application/json" -d "{\"message\": \"Qué es una plan premium en odoo?\"}"
 
 ## Dependencies
 
