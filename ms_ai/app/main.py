@@ -11,7 +11,7 @@ load_dotenv(find_dotenv())
 app = FastAPI()
 
 # Inicializar modelo de IA
-llm = ChatOpenAI(mo>del="gpt-4o-2024-11-20")
+llm = ChatOpenAI(model="gpt-4o-2024-11-20")
 
 # Modelo de request para validar la entrada
 class ChatRequest(BaseModel):
