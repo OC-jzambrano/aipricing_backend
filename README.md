@@ -1,5 +1,6 @@
-# smartquote_backend
-Automate the pricing process with a scalable solution designed for production, leveraging microservices, containerized with FastAPI, and integrated with generative AI services.
+# Odoo Tutor
+An interactive AI-powered learning tool designed to assist users in mastering Odoo functionalities by assigning practical exercises and providing real-time feedback within an Odoo staging environment.
+
 
 ## Prerequisites
 
